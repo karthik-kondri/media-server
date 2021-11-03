@@ -1,0 +1,13 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017
+      database: mediaserver
+
+media-server:
+  video:
+    location: /Users/karthik/Media/Videos
+    chunk-size: 1048576
+
+ffmpeg:
+  path: /Users/karthik/workspace/Spring_WS/media-server/lib
